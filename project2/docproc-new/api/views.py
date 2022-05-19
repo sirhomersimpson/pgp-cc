@@ -16,7 +16,7 @@ import datetime
 
 
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
-s3_target_bucket = 'sk-gl-target'
+s3_target_bucket = 'rikp2sourcebucket05152022' #s3_target_bucket = 'sk-gl-target'
 
 
 # *******************************************************************************************************************
